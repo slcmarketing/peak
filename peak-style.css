@@ -1,0 +1,200 @@
+
+/*------------------Paddings-------------------- */
+
+.pt-10 {
+    padding-top: 100px;;
+}
+.pb-10 {
+    padding-bottom: 100px;
+}
+
+/*------------------Type Colors-------------------- */
+
+.white {
+    color:#fff;
+}
+.green {
+    color: #0B9444;
+}
+
+/*------------------Bg Colors-------------------- */
+
+.bg-black {
+    background-color: #000;
+}
+.bg-blue {
+    background-color: #2E3192;
+}
+.grey {
+    background-color: #E9E9E9;
+}
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-img-1 {
+    background-image: url(../images/bg-two-color.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.bg-img-banner {
+    background-image: url(../images/img-banner@2x.png);
+    background-position:right;
+    background-size: auto 400px;    
+    background-repeat: no-repeat;
+}
+
+.bg-sell-img-banner {
+    background-image: url(../images/sell-img-banner@2x.png);
+    background-position:right;
+    background-size: auto 400px;    
+    background-repeat: no-repeat;
+}
+
+.bg-contact-img-banner {
+    background-image: url(../images/contact-banner-img@2x.png);
+    background-position:right;
+    background-size: auto 400px;    
+    background-repeat: no-repeat;
+}
+
+nav a {
+    color: #2E3192 !important;
+}
+nav a:hover {
+    color: #2E3192;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #2E3192;
+    border-bottom: 2px solid #2E3192;
+    padding-bottom: 10px;
+}
+    
+.jumbotron {
+    border-radius: 0px;
+}
+.divider-100 {
+    height: 100px;
+}
+.divider-50 {
+    height: 50px;
+}
+.compare {
+    list-style: none    ;
+    padding-inline-start: 0px;
+}
+.compare li {
+    margin-bottom: 15px;
+    
+}
+.col-active {
+    background-color: #E1F7EA;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+.col-no-active {
+    background-color: #ddd;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.carousel{
+    background-image: url(../images/testimonials-bg-img@2x.png);
+    margin-top: 20px;
+    background-position:center;
+    background-size: auto 100%;    
+    background-repeat: no-repeat;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 200px !important; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+a {
+    color: #F7941D;
+}
+a:hover {
+    color:initial;
+    text-decoration: underline;
+}
+
+
+
+.btn {
+    border-radius: 0px !important;
+}
+.btn-primary {
+    background-color: #F7941D;
+    border-color: #F7941D;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+
+    background-color: #E88918;
+    border-color: #E88918;
+}
+
+.btn-success {
+    background-color: #0B9444;
+    border-color: #0B9444;
+}
+
+.btn-secondary {
+}
+
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+footer a {
+    color: #B5B5B5;
+}
+
+
+.modal-header {
+    border: none;
+    padding: 40px !important;
+}
+.modal-content {
+    border: none;
+    border-radius: 0px !important;
+}
+.modal-body {
+    padding: 0px 40px !important;
+}
+.modal-footer {
+    padding: 40px !important;
+    border: none;
+}
+
+.sell-img {
+    background-image: url(../images/testimonials-bg-img@2x.png);
+    background-position:top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+}
+.card-header {
+    background-color: #FCF7F0;
+}
+.btn-link {
+    color: #E88918;
+}
+.btn-link:hover {
+    color: #E88918;
+    text-decoration: underline;
+}
